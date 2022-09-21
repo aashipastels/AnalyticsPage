@@ -1,0 +1,18 @@
+.bigDiv{
+    margin: 15px;
+}
+.datesettings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.datesettings div{
+    border: 1px solid lightgray;
+    
+    padding: 10px;
+    font-weight: 600;
+}
+.input{
+    margin-right: 30px;
+}

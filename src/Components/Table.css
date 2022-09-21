@@ -1,0 +1,19 @@
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.insideTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h3{
+    
+        color: black;
+        font-weight: 100;
+        font-size: medium;
+    
+}

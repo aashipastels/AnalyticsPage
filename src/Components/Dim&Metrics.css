@@ -1,0 +1,43 @@
+.bigdimmetrics{
+    border: 1px solid lightgray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 5px 30 px ;
+    border: 1px solid lightgray;
+}
+.dimmetrics{
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    justify-content: space-around;
+}
+.dimmetrics button{
+    
+    width: 150px;
+    padding: 7px;
+    margin: 7px;
+}
+.buttonDiv{
+    text-align: end;
+    margin: 15px;
+    
+}
+
+.buttonDiv button{
+    padding: 8px;
+    margin: 8px;
+    background-color: #1363DF;
+    color: white;
+    border: none;
+}
+
+#blue{
+    color: orange;
+    border-left : 5px #1363DF solid;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+#blue:active{
+    background-color: lightblue;
+}
